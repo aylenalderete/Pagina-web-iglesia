@@ -5,7 +5,6 @@ function Inicio() {
     return (
         <div>
             <div>
-                <Navbar/>
             </div>
             <div>
                 <img></img>

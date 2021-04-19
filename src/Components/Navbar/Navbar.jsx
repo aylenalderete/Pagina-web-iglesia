@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../../Assets/logo.png'
 import Styles from "./Navbar.module.css"
 
@@ -9,11 +10,11 @@ function Navbar() {
                     <img className={Styles.logo} src={Logo}></img>
                 </div>
                 <nav className={Styles.CategoriasContainer}>
-                    <span className={Styles.categoria}>Inicio</span>
-                    <span className={Styles.categoria}>Nuestra historia</span>
-                    <span className={Styles.categoria}>CCDT Kids</span>
-                    <span className={Styles.categoria}>Diezmos y ofrendas</span>
-                    <span className={Styles.categoria}>Radio en vivo</span>
+                    <Link to='/' >Inicio</Link>
+                    <Link to='/nuestra-historia' >Nuestra historia</Link>
+                    <Link to='/ccdt-kids' >CCDT Kids</Link>
+                    <Link to='/diezmos-ofrendas' >Diezmos y ofrendas</Link>
+                    <Link to='/radio' >Radio en vivo</Link>
                 </nav>
             </header>
     )
