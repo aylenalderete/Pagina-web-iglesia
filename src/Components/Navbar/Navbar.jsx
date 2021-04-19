@@ -4,19 +4,18 @@ import Styles from "./Navbar.module.css"
 
 function Navbar() {
     return (
-            <nav className={Styles.NavbarContainer}>
-                <div>
-                    <img src={Logo}></img>
+            <header className={Styles.NavbarContainer}>
+                <div className={Styles.logoContainer}>
+                    <img className={Styles.logo} src={Logo}></img>
                 </div>
-                <div className={Styles.CategoriasContainer}>
-                    <span>Inicio</span>
-                    <span>Nuestra historia</span>
-                    <span>Anuncios</span>
-                    <span>CCDT Kids</span>
-                    <span>Diezmos y ofrendas</span>
-                    <span>Radio en vivo</span>
-                </div>
-            </nav>
+                <nav className={Styles.CategoriasContainer}>
+                    <span className={Styles.categoria}>Inicio</span>
+                    <span className={Styles.categoria}>Nuestra historia</span>
+                    <span className={Styles.categoria}>CCDT Kids</span>
+                    <span className={Styles.categoria}>Diezmos y ofrendas</span>
+                    <span className={Styles.categoria}>Radio en vivo</span>
+                </nav>
+            </header>
     )
 }
 

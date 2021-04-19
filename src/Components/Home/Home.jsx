@@ -9,7 +9,8 @@ function Inicio() {
             </div>
             <div>
                 <img></img>
-                <p></p>
+                <h1>COMUNIDAD CRISTIANA</h1>
+                <p>Una fe, una iglesia, una familia.</p>
             </div>
             <div>
                 <p></p>

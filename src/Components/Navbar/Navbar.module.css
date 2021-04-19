@@ -1,11 +1,32 @@
 .NavbarContainer {
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
+    height: 70px;
     
 }
 
 .CategoriasContainer {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.categoria {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+.logoContainer {
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logo {
+    height: 80%;
 }
