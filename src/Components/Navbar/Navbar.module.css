@@ -1,0 +1,11 @@
+.NavbarContainer {
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.CategoriasContainer {
+    display: flex;
+    flex-direction: row;
+}
