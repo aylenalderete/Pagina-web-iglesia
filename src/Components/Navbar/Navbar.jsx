@@ -10,11 +10,11 @@ function Navbar() {
                     <img className={Styles.logo} src={Logo}></img>
                 </div>
                 <nav className={Styles.CategoriasContainer}>
-                    <Link to='/' >Inicio</Link>
-                    <Link to='/nuestra-historia' >Nuestra historia</Link>
-                    <Link to='/ccdt-kids' >CCDT Kids</Link>
-                    <Link to='/diezmos-ofrendas' >Diezmos y ofrendas</Link>
-                    <Link to='/radio' >Radio en vivo</Link>
+                    <Link className={Styles.categoria} to='/' >Inicio</Link>
+                    <Link className={Styles.categoria} to='/nuestra-historia' >Nuestra historia</Link>
+                    <Link className={Styles.categoria} to='/ccdt-kids' >CCDT Kids</Link>
+                    <Link className={Styles.categoria} to='/diezmos-ofrendas' >Diezmos y ofrendas</Link>
+                    <Link className={Styles.categoria} to='/radio' >Radio en vivo</Link>
                 </nav>
             </header>
     )
