@@ -40,6 +40,7 @@ function ChatRoom() {
     useEffect(() => {
         let unSubscription = db
         .collection('messages')
+        .orderBy('hour')
         .onSnapshot((messages)=> {
             const messagesData = messages.docs.map((el)=>el.data())
             setmensaje({...mensaje, messages: messagesData})
