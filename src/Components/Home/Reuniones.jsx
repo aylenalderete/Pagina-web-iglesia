@@ -9,7 +9,6 @@ function Reuniones() {
         <div className={Styles.cardsContainer}>
             <div className={Styles.card}>
                 <img className={Styles.img} src={ReunionJueves}></img>
-                <spam className={Styles.cardTitle}>Jueves</spam>
                 <spam className={Styles.description}>Reunion general 20hs</spam>
                 <button className={Styles.btn}>Ver culto online</button>
             </div>
@@ -21,7 +20,6 @@ function Reuniones() {
             </div>
             <div className={Styles.card}>
                 <img className={Styles.img} src={ReunionDomingo}></img>
-                <spam className={Styles.cardTitle}>Domingo</spam>
                 <spam className={Styles.description}>Reunion general 19hs</spam>
                 <button className={Styles.btn}>Ver culto online</button>
             </div>
